@@ -43,17 +43,6 @@ $(".hero__right-slider .slick-next").on("click", function () {
   $(".bg__slider, .slick-next").click();
 });
 
-// (function () {
-//   $(".hero__right-slider .slick-prev").on("click", function () {
-//     $(".bg__slider, .slick-prev").click();
-//   });
-// })()(
-//   (function () {
-//     $(".hero__right-slider .slick-next").on("click", function () {
-//       $(".bg__slider, .slick-next").click();
-//     });
-//   })()
-// );
 
 $(".bg__slider").slick({
   arrows: true,
